@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 # Login Form Project
 
 This project demonstrates the creation of a responsive login form using HTML and CSS, focusing on layout, styling, and basic interactivity. The project showcases the use of **color, background-color, borders, margins, centering, padding, border-radius, and box-model concepts**.
@@ -68,4 +68,4 @@ This project demonstrates the creation of a responsive login form using HTML and
 - All elements are styled to visually match a modern login form design.
 =======
 # Login-Form-Project
->>>>>>> 5c7bd32ab7a3afc58699c62864f9b9556a494fbb
+
