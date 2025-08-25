@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang = "en-US">
+    <head>
+        <meta charset = "UTF-8" />
+        <meta name = "viewport" content = "width = device-width, initial-scale = 1.0" />
+        <title>Login Form</title>
+        <link rel = "stylesheet" href = "style.css" />
+    </head>
+    <body>
+        <nav>
+            <ul>
+                <li>Home</li>
+                <li>Services</li>
+                <li>Product</li>
+                <li>Contact Us</li>
+            </ul>
+        </nav>
+
+        <section class = "login-container">
+            <h1>Login Form</h1>
+
+            <div class = "profile-pic">
+                <img src = "profile-image-css-login-page-project_tS9W4AV3q.webp" alt = "Profile Picture" />
+            </div>
+
+            <div class = "login-fields">
+            <div class = "username-field">
+                <label for = "username">Username </label>
+                <input type = "text" id = "username" placeholder = "Enter Username " />
+            </div>
+
+            <div class = "password-field">
+                <label for = "password">Password </label>
+                <input type = "password" id = "password" placeholder = "Enter Password ">
+            </div>
+            </div>
+
+            <div class = "login-button">
+                <button type = "submit">Login</button>
+            </div>
+
+            <div class = "remember-me">
+                <input type="checkbox" id="remember" />
+                <label for="remember">Remember me</label>
+            </div>
+
+            <div class = "forgott-password">
+                <a href = "#">Forgot Password</a>
+            </div>
+
+            <div class = "cancel-button">
+                <button type = "submit" onclick="document.getElementById('username').value=''; document.getElementById('password').value=''; document.getElementById('remember').checked=false;">Cancel</button>
+            </div>
+        </section>
+    </body>
+
+</html>
